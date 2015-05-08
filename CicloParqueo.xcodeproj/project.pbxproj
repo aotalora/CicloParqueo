@@ -19,6 +19,9 @@
 		3BA2A0591AFC74C900D8E7FF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA2A0581AFC74C900D8E7FF /* HomeViewController.m */; };
 		3BA2A05C1AFC79CB00D8E7FF /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA2A05B1AFC79CB00D8E7FF /* RegisterViewController.m */; };
 		3BA2A05F1AFC7D2E00D8E7FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA2A05D1AFC7D2E00D8E7FF /* Main.storyboard */; };
+		D1628C4F1AFD33FD00C53D5D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1628C4E1AFD33FD00C53D5D /* FBSDKCoreKit.framework */; };
+		D1628C511AFD340600C53D5D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1628C501AFD340600C53D5D /* FBSDKLoginKit.framework */; };
+		D1628C531AFD340E00C53D5D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1628C521AFD340E00C53D5D /* FBSDKShareKit.framework */; };
 		D1B63E411AFCEF0D003719E9 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B63E401AFCEF0D003719E9 /* Accounts.framework */; };
 		D1B63E491AFCFBE8003719E9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B63E481AFCFBE8003719E9 /* AudioToolbox.framework */; };
 		D1B63E4B1AFCFBF1003719E9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B63E4A1AFCFBF1003719E9 /* CFNetwork.framework */; };
@@ -34,9 +37,6 @@
 		D1B63E5F1AFCFC53003719E9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B63E5E1AFCFC53003719E9 /* libsqlite3.dylib */; };
 		D1B63E841AFD0C00003719E9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B63E831AFD0C00003719E9 /* Parse.framework */; };
 		D1B63E891AFD1540003719E9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B63E881AFD1540003719E9 /* Bolts.framework */; };
-		D1B63E8B1AFD189E003719E9 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B63E8A1AFD189E003719E9 /* FBSDKCoreKit.framework */; };
-		D1B63E8D1AFD18B2003719E9 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B63E8C1AFD18B2003719E9 /* FBSDKLoginKit.framework */; };
-		D1B63E8F1AFD18C4003719E9 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B63E8E1AFD18C4003719E9 /* FBSDKShareKit.framework */; };
 		D1B63E951AFD1CE2003719E9 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B63E941AFD1CE2003719E9 /* ParseFacebookUtilsV4.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +73,9 @@
 		3BA2A05A1AFC79CB00D8E7FF /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		3BA2A05B1AFC79CB00D8E7FF /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		3BA2A05E1AFC7D2E00D8E7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1628C4E1AFD33FD00C53D5D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		D1628C501AFD340600C53D5D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		D1628C521AFD340E00C53D5D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		D1B63E401AFCEF0D003719E9 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		D1B63E481AFCFBE8003719E9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D1B63E4A1AFCFBF1003719E9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -88,9 +91,6 @@
 		D1B63E5E1AFCFC53003719E9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		D1B63E831AFD0C00003719E9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		D1B63E881AFD1540003719E9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		D1B63E8A1AFD189E003719E9 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		D1B63E8C1AFD18B2003719E9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		D1B63E8E1AFD18C4003719E9 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		D1B63E941AFD1CE2003719E9 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,9 +99,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B63E8D1AFD18B2003719E9 /* FBSDKLoginKit.framework in Frameworks */,
 				D1B63E891AFD1540003719E9 /* Bolts.framework in Frameworks */,
 				D1B63E951AFD1CE2003719E9 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				D1628C511AFD340600C53D5D /* FBSDKLoginKit.framework in Frameworks */,
+				D1628C4F1AFD33FD00C53D5D /* FBSDKCoreKit.framework in Frameworks */,
 				D1B63E5F1AFCFC53003719E9 /* libsqlite3.dylib in Frameworks */,
 				D1B63E5D1AFCFC42003719E9 /* libz.dylib in Frameworks */,
 				D1B63E5B1AFCFC3A003719E9 /* SystemConfiguration.framework in Frameworks */,
@@ -110,12 +111,11 @@
 				D1B63E551AFCFC1F003719E9 /* Security.framework in Frameworks */,
 				D1B63E531AFCFC14003719E9 /* QuartzCore.framework in Frameworks */,
 				D1B63E511AFCFC0B003719E9 /* MobileCoreServices.framework in Frameworks */,
+				D1628C531AFD340E00C53D5D /* FBSDKShareKit.framework in Frameworks */,
 				D1B63E4F1AFCFC02003719E9 /* CoreLocation.framework in Frameworks */,
 				D1B63E4D1AFCFBF9003719E9 /* CoreGraphics.framework in Frameworks */,
 				D1B63E841AFD0C00003719E9 /* Parse.framework in Frameworks */,
 				D1B63E4B1AFCFBF1003719E9 /* CFNetwork.framework in Frameworks */,
-				D1B63E8F1AFD18C4003719E9 /* FBSDKShareKit.framework in Frameworks */,
-				D1B63E8B1AFD189E003719E9 /* FBSDKCoreKit.framework in Frameworks */,
 				D1B63E491AFCFBE8003719E9 /* AudioToolbox.framework in Frameworks */,
 				D1B63E411AFCEF0D003719E9 /* Accounts.framework in Frameworks */,
 			);
@@ -134,10 +134,10 @@
 		3BA2A0171AFC4F6700D8E7FF = {
 			isa = PBXGroup;
 			children = (
+				D1628C521AFD340E00C53D5D /* FBSDKShareKit.framework */,
+				D1628C501AFD340600C53D5D /* FBSDKLoginKit.framework */,
+				D1628C4E1AFD33FD00C53D5D /* FBSDKCoreKit.framework */,
 				D1B63E941AFD1CE2003719E9 /* ParseFacebookUtilsV4.framework */,
-				D1B63E8E1AFD18C4003719E9 /* FBSDKShareKit.framework */,
-				D1B63E8C1AFD18B2003719E9 /* FBSDKLoginKit.framework */,
-				D1B63E8A1AFD189E003719E9 /* FBSDKCoreKit.framework */,
 				D1B63E881AFD1540003719E9 /* Bolts.framework */,
 				D1B63E831AFD0C00003719E9 /* Parse.framework */,
 				D1B63E5E1AFCFC53003719E9 /* libsqlite3.dylib */,
